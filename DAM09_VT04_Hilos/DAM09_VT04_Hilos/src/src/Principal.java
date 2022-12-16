@@ -3,7 +3,7 @@ package src;
 public class Principal {
 
 	public static void pruebaMiHilo(int numHilos) {
-		// Creamos n hilos tipo MiHilo y los lanzamos.
+		// Creamos n hilos tipo MiHilo y los lanzamos
 		for (int i = 0; i < numHilos; i++) {
 			new MiHilo("HiloNum-" + i).start();
 		}
